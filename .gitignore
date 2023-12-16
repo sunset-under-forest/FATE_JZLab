@@ -31,9 +31,6 @@ venv
 
 
 # IGNORE
-/test/ABY/doc/*
-
-!/test/ABY/doc/纵向线性回归组件_v0.0.1/
 
 
 
