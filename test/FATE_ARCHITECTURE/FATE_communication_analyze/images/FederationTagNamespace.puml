@@ -1,0 +1,8 @@
+@startuml
+class FederationTagNamespace {
+    - __namespace: str = "default"
+    + set_namespace(namespace: str)
+    + generate_tag(*suffix: Any): str
+}
+
+@enduml

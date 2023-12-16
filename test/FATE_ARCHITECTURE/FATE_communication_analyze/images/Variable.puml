@@ -1,0 +1,17 @@
+@startuml
+class Variable {
+    - __instances: MutableMapping[str, Variable]
+    + get_or_create(name, create_func): Variable
+    + __init__(name, src, dst)
+    + __copy__()
+    + __deepcopy__(memo)
+    + set_preserve_num(n)
+    + disable_auto_clean()
+    + clean()
+    + remote_parties(obj, parties, suffix)
+    + get_parties(parties, suffix)
+    + remote(obj, role, idx, suffix)
+    + get(idx, role, suffix)
+}
+
+@enduml

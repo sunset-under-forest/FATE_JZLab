@@ -1,0 +1,12 @@
+@startuml
+class BaseTransferVariables {
+    + __init__(*args)
+    + __copy__()
+    + __deepcopy__(memo)
+    + set_flowid(flowid)
+    + _create_variable(name, src, dst): Variable
+    + all_parties(): list
+    + local_party(): Party
+}
+
+@enduml

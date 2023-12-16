@@ -1,0 +1,32 @@
+@startuml
+participant fate_flow_server as "fate_flow_server.py"
+participant provider_manager as "provider_manager.py"
+participant worker_manager as "worker_manager.py"
+participant base_worker as "base_worker.py"
+participant provider_registrar as "provider_registrar.py"
+participant component_registry as "component_registry.py"
+participant components as "components.py"
+
+activate fate_flow_server
+fate_flow_server -> provider_manager: register_default_providers()
+activate provider_manager
+provider_manager -> worker_manager: start_general_worker()
+activate worker_manager
+worker_manager -> base_worker: run()
+activate base_worker
+base_worker -> provider_registrar: _run()
+activate provider_registrar
+provider_registrar -> component_registry: register_provider()
+activate component_registry
+component_registry -> components: _search_components()
+activate components
+components --> component_registry: traceback.format_stack()
+
+deactivate components
+deactivate component_registry
+deactivate provider_registrar
+deactivate base_worker
+deactivate worker_manager
+deactivate provider_manager
+deactivate fate_flow_server
+@enduml

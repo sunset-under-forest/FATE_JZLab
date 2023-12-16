@@ -1,0 +1,40 @@
+@startuml
+participant PartyA
+participant BaseTransferVariablesA
+participant VariableA
+participant PartyB
+participant BaseTransferVariablesB
+participant VariableB
+participant Session
+
+PartyA -> Session: 创建会话\n(session_id)
+PartyB -> Session: 创建会话\n(session_id)
+
+PartyA -> BaseTransferVariablesA: 设置命名空间\n(set_flowid(flowid))
+BaseTransferVariablesA -> FederationTagNamespace: 设置命名空间\n(set_namespace(flowid))
+PartyA -> BaseTransferVariablesA: 创建变量\n(_create_variable(name, src, dst))
+BaseTransferVariablesA -> VariableA: 创建变量\n(_create_variable(name, src, dst))
+VariableA -> FederationTagNamespace: 生成标签\n(generate_tag(*suffix))
+
+PartyB -> BaseTransferVariablesB: 设置命名空间\n(set_flowid(flowid))
+BaseTransferVariablesB -> FederationTagNamespace: 设置命名空间\n(set_namespace(flowid))
+PartyB -> BaseTransferVariablesB: 创建变量\n(_create_variable(name, src, dst))
+BaseTransferVariablesB -> VariableB: 创建变量\n(_create_variable(name, src, dst))
+VariableB -> FederationTagNamespace: 生成标签\n(generate_tag(*suffix))
+activate PartyA
+
+PartyA -> VariableA: 远程传输请求\n(remote_parties(obj, parties, suffix))
+VariableA -> FederationTagNamespace: 生成标签\n(generate_tag(*suffix))
+VariableA -> Session: session.federation.remote 传输对象
+
+
+PartyB -> VariableB: 获取对象请求\n(get_parties(parties, suffix))
+activate PartyB
+VariableB -> FederationTagNamespace: 生成标签\n(generate_tag(*suffix))
+Session -> VariableB: session.federation.get 获取对象
+VariableB --> PartyB: 返回对象\n(get_parties 返回值)
+
+deactivate PartyB
+
+deactivate PartyA
+@enduml

@@ -1,0 +1,23 @@
+@startuml
+package "Garbage Collection" {
+    abstract class GarbageCollectionABC {
+        {abstract} + add_gc_action(tag: str, obj, method, args_dict)
+    }
+
+    class IterationGC {
+        - _ashcan: deque
+        - _last_tag: str
+        - _capacity: int
+        - _enable: bool
+        + add_gc_action(tag: str, obj, method, args_dict)
+        + disable()
+        + set_capacity(capacity: int)
+        + gc()
+        + clean()
+        - _safe_gc_call(actions)
+    }
+}
+
+GarbageCollectionABC <|-- IterationGC
+
+@enduml

@@ -1,0 +1,36 @@
+@startuml
+participant base_worker
+participant ConfigManager
+participant ResourceManager
+participant task_executor
+participant BaseTaskWorker
+participant ControllerClient
+participant _session
+participant db_models
+participant ComponentBase
+participant Reader
+
+base_worker -> ConfigManager: run
+ConfigManager -> ResourceManager: load
+ResourceManager -> ResourceManager: initialize
+ResourceManager -> ResourceManager: register_engine
+ResourceManager -> ConfigManager: initialize
+ConfigManager -> base_worker: load
+base_worker -> BaseTaskWorker: _run
+BaseTaskWorker -> task_executor: _run_
+task_executor -> BaseTaskWorker: report_task_info_to_driver
+BaseTaskWorker -> ControllerClient: report_task
+ControllerClient -> BaseTaskWorker: report_task_info_to_driver
+BaseTaskWorker -> _session: __init__
+_session -> db_models: init_database_tables
+BaseTaskWorker -> task_executor: _run_
+task_executor -> ComponentBase: run
+ComponentBase -> Reader: _run
+Reader -> Reader: save_table
+Reader -> Reader: to_save
+Reader -> Reader: save_table
+Reader -> ComponentBase: _run
+ComponentBase -> task_executor: _run_
+task_executor -> BaseTaskWorker: report_task_info_to_driver
+BaseTaskWorker -> base_worker: _run
+@enduml
