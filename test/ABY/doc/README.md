@@ -6,6 +6,8 @@
 
 ![ABY定点数问题.svg](./ABY_compute_framework.svg)
 
+<hr>
+
 ### 开发文档（开发日志）
 
 1. [百万富翁测试组件嵌入](./ABY_millionare.md)
@@ -13,6 +15,8 @@
 3. [ABY框架加密安全层嵌入开发](./ABY_secureprotol.md)
 4. [ABY计算框架大整数封装](./ABY_big_integer.md)
 4. [纵向联邦学习组件性能比较](./ABY_hetero_federated_linear_regression.md)
+
+<hr>
 
 ### 结果展示
 
@@ -34,6 +38,8 @@
 ![aby_vs_spdz_in_speed.png](aby_vs_spdz_in_speed.png)
 
 总结：100轮的计算速度相较于SDPZ计算框架提升了近10倍，并且随着计算轮次的增加，ABY计算框架的计算速度提升更加明显。
+
+<hr>
 
 #### 纵向线性回归 with ABY VS 纵向线性回归 with SPDZ in FATE（旧版测试记录，新版测试记录完成中，已经解决精度问题）
 
