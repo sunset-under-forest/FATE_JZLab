@@ -2,8 +2,7 @@
 
 `HeteroLinRGuest`来自`federatedml.linear_model.bilateral_linear_model.hetero_sshe_linear_regression.hetero_linr_guest`
 
-![federatedml.linear_model.bilateral_linear_model.hetero_sshe_linear_regression.hetero_linr_guest](.\images\federatedml.linear_model.bilateral_linear_model.hetero_sshe_linear_regression.hetero_linr_guest.png)
-
+![hetero_linr_guest_class.png](images%2Fhetero_linr_guest_class.png)
 ## 训练过程入口点
 
 ### HeteroLinRGuest.fit
