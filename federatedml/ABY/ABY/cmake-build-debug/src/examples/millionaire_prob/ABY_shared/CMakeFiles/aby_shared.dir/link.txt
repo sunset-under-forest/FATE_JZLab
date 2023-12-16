@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -fPIC -g  -fPIC -shared -Wl,-soname,libaby_shared.so -o ../../../../lib/libaby_shared.so CMakeFiles/aby_shared.dir/aby_shared.cpp.o 

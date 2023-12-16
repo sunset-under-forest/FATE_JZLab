@@ -1,0 +1,60 @@
+{
+    "components": {
+        "reader_0": {
+            "module": "Reader",
+            "output": {
+                "data": [
+                    "data"
+                ]
+            }
+        },
+        "data_transformer_0": {
+            "module": "DataTransform",
+            "input": {
+                "data": {
+                    "data": [
+                        "reader_0.data"
+                    ]
+                }
+            },
+            "output": {
+                "data": [
+                    "data"
+                ],
+                "model": [
+                    "model"
+                ]
+            }
+        },
+        "aby_vector_add_test_0": {
+            "module": "ABYVectorAddTest",
+            "input": {
+                "data": {
+                    "train_data": [
+                        "data_transformer_0.data"
+                    ]
+                }
+            },
+            "output": {
+                "data": [
+                    "data"
+                ]
+            }
+        },
+        "aby_vector_mul_test_0": {
+            "module": "ABYVectorMulTest",
+            "input": {
+                "data": {
+                    "train_data": [
+                        "data_transformer_0.data"
+                    ]
+                }
+            },
+            "output": {
+                "data": [
+                    "data"
+                ]
+            }
+        }
+    }
+}

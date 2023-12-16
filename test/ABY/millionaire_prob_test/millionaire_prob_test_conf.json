@@ -1,0 +1,58 @@
+{
+    "dsl_version": 2,
+    "initiator": {
+        "role": "guest",
+        "party_id": 10000
+    },
+    "role": {
+        "guest": [
+            10000
+        ],
+        "host": [
+            9999
+        ]
+    },
+    "job_parameters": {
+        "common": {
+            "job_type": "train"
+        }
+    },
+    "component_parameters": {
+        "role": {
+            "host": {
+                "0": {
+                    "aby_millionaire_prob_test_0": {
+                        "aby_role": "client",
+                        "money": 66
+                    },
+                    "reader_0": {
+                        "table": {
+                            "name": "millionaire_prob_test_host",
+                            "namespace": "test"
+                        }
+                    }
+                }
+            },
+            "guest": {
+                "0": {
+                    "aby_millionaire_prob_test_0": {
+                        "aby_role": "server",
+                        "money": 77
+                    },
+                    "reader_0": {
+                        "table": {
+                            "name": "millionaire_prob_test_guest",
+                            "namespace": "test"
+                        }
+                    }
+                }
+            }
+        },
+        "common": {
+            "aby_millionaire_prob_test_0": {
+                "address": "0.0.0.0",
+                "port": 7766
+            }
+        }
+    }
+}

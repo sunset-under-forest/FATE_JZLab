@@ -1,0 +1,101 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/ABY/extern/OTExtension/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/ABY/lib/libotextension.a"
+			],
+			"targetId" : "otextension::@8d9ac117c87ed4fa8f9d",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"extern/ABY/extern/OTExtension/ot"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/OTExtension",
+			"exportName" : "OTExtensionTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "otextension::@8d9ac117c87ed4fa8f9d",
+					"index" : 5
+				}
+			],
+			"paths" : 
+			[
+				"extern/ABY/extern/OTExtension/CMakeFiles/Export/lib/cmake/OTExtension/OTExtensionTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/OTExtension",
+			"paths" : 
+			[
+				"cmake-build-debug/extern/ABY/extern/OTExtension/OTExtensionConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/ABY/extern/OTExtension",
+		"source" : "extern/ABY/extern/OTExtension"
+	}
+}

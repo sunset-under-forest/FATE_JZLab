@@ -1,0 +1,416 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						8,
+						9,
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "extern/ABY",
+					"childIndexes" : 
+					[
+						2,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.ABY-Debug-476f23cc89d092fab0fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "extern/ABY"
+				},
+				{
+					"build" : "extern/ABY/extern/ENCRYPTO_utils",
+					"childIndexes" : 
+					[
+						3,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.ABY.extern.ENCRYPTO_utils-Debug-c1d2eaa9b474fdbe9364.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "extern/ABY/extern/ENCRYPTO_utils"
+				},
+				{
+					"build" : "extern/ABY/extern/ENCRYPTO_utils/extern/relic",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.ABY.extern.ENCRYPTO_utils.extern.relic-Debug-99e88a64bb9c5f0a3b86.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "extern/ABY/extern/ENCRYPTO_utils/extern/relic"
+				},
+				{
+					"build" : "extern/ABY/extern/ENCRYPTO_utils/extern/relic/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.ABY.extern.ENCRYPTO_utils.extern.relic.src-Debug-cdcf409230d0c727ab64.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "extern/ABY/extern/ENCRYPTO_utils/extern/relic/src",
+					"targetIndexes" : 
+					[
+						5,
+						10
+					]
+				},
+				{
+					"build" : "extern/ABY/extern/ENCRYPTO_utils/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.ABY.extern.ENCRYPTO_utils.src-Debug-5597606be46d0d95fe60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "extern/ABY/extern/ENCRYPTO_utils/src",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "extern/ABY/extern/OTExtension",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.ABY.extern.OTExtension-Debug-1999188cbdfc204032ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "extern/ABY/extern/OTExtension",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "extern/ABY/src/abycore",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.ABY.src.abycore-Debug-9e21eaf49c2012125efc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "extern/ABY/src/abycore",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/millionaire_prob_test",
+					"jsonFile" : "directory-src.millionaire_prob_test-Debug-0c40b8389cbf764e9340.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/millionaire_prob_test",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "src/test",
+					"jsonFile" : "directory-src.test-Debug-3607701395add829ebf1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/test",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						11,
+						12,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "src/add_and_mul_operator",
+					"jsonFile" : "directory-src.add_and_mul_operator-Debug-eb34f368947717295abe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/add_and_mul_operator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						13
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						8,
+						9,
+						10
+					],
+					"name" : "FATE_ABY",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						6,
+						7,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						7
+					],
+					"name" : "ABY",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						5
+					],
+					"name" : "ENCRYPTO_utils",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "RELIC",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						5,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "OTExtension",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 10,
+					"id" : "FATE_ABY_add_and_mul_operator::@fff47ff36d09b84edec0",
+					"jsonFile" : "target-FATE_ABY_add_and_mul_operator-Debug-99f184ad6f04821169b0.json",
+					"name" : "FATE_ABY_add_and_mul_operator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "FATE_ABY_add_and_mul_operator_lib::@fff47ff36d09b84edec0",
+					"jsonFile" : "target-FATE_ABY_add_and_mul_operator_lib-Debug-5a0087b7b4fd988e5a29.json",
+					"name" : "FATE_ABY_add_and_mul_operator_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "FATE_ABY_millionaire_prob_test::@6de88e2e5d039356a9bf",
+					"jsonFile" : "target-FATE_ABY_millionaire_prob_test-Debug-b13803f66b6e11dec181.json",
+					"name" : "FATE_ABY_millionaire_prob_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "FATE_ABY_millionaire_prob_test_lib::@6de88e2e5d039356a9bf",
+					"jsonFile" : "target-FATE_ABY_millionaire_prob_test_lib-Debug-4724e73a393f5d135015.json",
+					"name" : "FATE_ABY_millionaire_prob_test_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "aby::@5ac84cbf686098a90a6f",
+					"jsonFile" : "target-aby-Debug-9b54cca6bcd8cdc96ad8.json",
+					"name" : "aby",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "arith_objs::@66eb24acbfe27925ab07",
+					"jsonFile" : "target-arith_objs-Debug-fe5c7210d5969eaadada.json",
+					"name" : "arith_objs",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "client_test::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-client_test-Debug-f95e957e74adedcc084d.json",
+					"name" : "client_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "client_test_lib::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-client_test_lib-Debug-b6634e60c4a674019ed0.json",
+					"name" : "client_test_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "encrypto_utils::@c038d60a5d11fd96290d",
+					"jsonFile" : "target-encrypto_utils-Debug-abdb7b7d5cb66c803cfd.json",
+					"name" : "encrypto_utils",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "otextension::@8d9ac117c87ed4fa8f9d",
+					"jsonFile" : "target-otextension-Debug-e40a13a10a1bb93d8adf.json",
+					"name" : "otextension",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "relic_s::@66eb24acbfe27925ab07",
+					"jsonFile" : "target-relic_s-Debug-9ce5e5f2196b5a274325.json",
+					"name" : "relic_s",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "server_test::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-server_test-Debug-54907155c949f55f9846.json",
+					"name" : "server_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "server_test_lib::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-server_test_lib-Debug-15042511f896be33a343.json",
+					"name" : "server_test_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "share_conversion_test::@fff47ff36d09b84edec0",
+					"jsonFile" : "target-share_conversion_test-Debug-df076d50143bbc17ff65.json",
+					"name" : "share_conversion_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "test::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-test-Debug-a601caae324eefcdb61d.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "test_lib::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-test_lib-Debug-324f06c3267e770d5870.json",
+					"name" : "test_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/tmp/tmp.89xZxGpgdR/cmake-build-debug",
+		"source" : "/tmp/tmp.89xZxGpgdR"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

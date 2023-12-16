@@ -1,0 +1,8 @@
+{
+    "file": "/home/standalone_fate_install_1.11.2_release/examples/data/breast_homo_host.csv",
+    "head": 1,
+    "partition": 16,
+    "table_name": "breast_test_homo_host",
+    "namespace": "experiment",
+    "role": "host_0"
+}

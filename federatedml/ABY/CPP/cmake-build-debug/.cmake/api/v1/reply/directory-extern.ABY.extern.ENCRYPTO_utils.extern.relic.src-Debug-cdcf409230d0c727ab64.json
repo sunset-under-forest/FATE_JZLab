@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/ABY/extern/ENCRYPTO_utils/extern/relic/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 230,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/ABY/lib/librelic_s.a"
+			],
+			"targetId" : "relic_s::@66eb24acbfe27925ab07",
+			"targetIndex" : 10,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/ABY/extern/ENCRYPTO_utils/extern/relic/src",
+		"source" : "extern/ABY/extern/ENCRYPTO_utils/extern/relic/src"
+	}
+}

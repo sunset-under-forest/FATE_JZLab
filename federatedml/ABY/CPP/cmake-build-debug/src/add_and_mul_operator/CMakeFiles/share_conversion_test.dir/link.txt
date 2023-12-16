@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/share_conversion_test.dir/share_conversion_test.cpp.o CMakeFiles/share_conversion_test.dir/common/circuit.cpp.o -o share_conversion_test 

@@ -1,0 +1,226 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/test/relu_conversion_test"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"src/test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/tmp/tmp.89xZxGpgdR/extern/ABY/src/abycore/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/tmp/tmp.89xZxGpgdR/extern/ABY/extern/OTExtension"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/tmp/tmp.89xZxGpgdR/extern/ABY/extern/ENCRYPTO_utils/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/tmp/tmp.89xZxGpgdR/cmake-build-debug/extern/ABY/extern/ENCRYPTO_utils/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/tmp/tmp.89xZxGpgdR/extern/ABY/extern/ENCRYPTO_utils/extern/relic/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/tmp/tmp.89xZxGpgdR/extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/low"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/tmp/tmp.89xZxGpgdR/cmake-build-debug/extern/ABY/extern/ENCRYPTO_utils/extern/relic/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "relic_s::@66eb24acbfe27925ab07"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "encrypto_utils::@c038d60a5d11fd96290d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "otextension::@8d9ac117c87ed4fa8f9d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "aby::@5ac84cbf686098a90a6f"
+		}
+	],
+	"id" : "relu_conversion_test::@b7fcbc08bf8df37e9c1b",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../extern/ABY/lib/libaby.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../extern/ABY/lib/libencrypto_utils.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lstdc++fs",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../extern/ABY/lib/libotextension.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../extern/ABY/lib/libencrypto_utils.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgmp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgmpxx.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcrypto.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../extern/ABY/lib/librelic_s.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../extern/ABY/lib/librelic_s.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgmp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgmp.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "relu_conversion_test",
+	"nameOnDisk" : "relu_conversion_test",
+	"paths" : 
+	{
+		"build" : "src/test",
+		"source" : "src/test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/test/relu_conversion_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/test/common/test_const.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

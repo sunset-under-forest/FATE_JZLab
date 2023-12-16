@@ -1,0 +1,126 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/ABY/extern/ENCRYPTO_utils/extern/relic/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 323,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 325,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 326,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 328,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/relic",
+			"paths" : 
+			[
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_alloc.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_arch.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_bc.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_bench.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_bn.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_core.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_cp.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_dv.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_eb.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_ec.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_ed.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_ep.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_epx.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_err.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_fb.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_fbx.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_fp.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_fpx.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_label.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_md.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_mpc.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_multi.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_pc.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_pp.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_rand.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_test.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_types.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/relic_util.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/relic/low",
+			"paths" : 
+			[
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/low/relic_bn_low.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/low/relic_dv_low.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/low/relic_fb_low.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/low/relic_fp_low.h",
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/include/low/relic_fpx_low.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/relic",
+			"paths" : 
+			[
+				{
+					"from" : "cmake-build-debug/extern/ABY/extern/ENCRYPTO_utils/extern/relic/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "cmake",
+			"paths" : 
+			[
+				"extern/ABY/extern/ENCRYPTO_utils/extern/relic/cmake/relic-config.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/ABY/extern/ENCRYPTO_utils/extern/relic",
+		"source" : "extern/ABY/extern/ENCRYPTO_utils/extern/relic"
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"extern/ABY/extern/ENCRYPTO_utils/extern/relic/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 184,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "arith_objs::@66eb24acbfe27925ab07",
+	"name" : "arith_objs",
+	"paths" : 
+	{
+		"build" : "extern/ABY/extern/ENCRYPTO_utils/extern/relic/src",
+		"source" : "extern/ABY/extern/ENCRYPTO_utils/extern/relic/src"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

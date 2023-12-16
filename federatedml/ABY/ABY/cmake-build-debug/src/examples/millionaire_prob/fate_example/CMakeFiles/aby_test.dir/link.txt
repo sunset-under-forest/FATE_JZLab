@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g CMakeFiles/aby_test.dir/aby_test.cpp.o -o ../../../../bin/aby_test 

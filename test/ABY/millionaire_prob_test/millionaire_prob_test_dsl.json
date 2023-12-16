@@ -1,0 +1,27 @@
+{
+    "components": {
+        "reader_0": {
+            "module": "Reader",
+            "output": {
+                "data": [
+                    "data"
+                ]
+            }
+        },
+        "aby_millionaire_prob_test_0": {
+            "module": "ABYMillionaireProbTest",
+            "input": {
+                "data": {
+                    "train_data": [
+                        "reader_0.data"
+                    ]
+                }
+            },
+            "output": {
+                "data": [
+                    "data"
+                ]
+            }
+        }
+    }
+}
