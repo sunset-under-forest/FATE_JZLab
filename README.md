@@ -1,6 +1,6 @@
 # 安联医盟——基于FATE+ABY的医疗数据高效联邦学习系统——v1.0.7
 
-[![Federated Learning](https://img.shields.io/badge/Federated%20Learning-Enabled-brightgreen)](https://www.example.com/federated-learning) [![Powered by FATE](https://img.shields.io/badge/Powered%20by-FATE-orange)](https://fate-oss.github.io/) [![Privacy-Focused](https://img.shields.io/badge/Privacy-Focused-blue)](https://www.example.com/privacy-policy) [![Version](https://img.shields.io/badge/Version-1.0.7-brightgreen)](https://www.example.com/releases) [![Documentation](https://img.shields.io/badge/Documentation-Yes-brightgreen)](https://www.example.com/docs) [![Contributors](https://img.shields.io/badge/Contributors-7-orange)](https://www.example.com/contributors)
+[![Federated Learning](https://img.shields.io/badge/Federated%20Learning-Enabled-brightgreen)](https://www.example.com/federated-learning) [![Powered by JZLab](https://img.shields.io/badge/Powered%20by-JZLab-orange)](https://fate-oss.github.io/) [![Privacy-Focused](https://img.shields.io/badge/Privacy-Focused-blue)](https://www.example.com/privacy-policy) [![Version](https://img.shields.io/badge/Version-1.0.7-brightgreen)](https://www.example.com/releases) [![Documentation](https://img.shields.io/badge/Documentation-Yes-brightgreen)](https://www.example.com/docs) [![Contributors](https://img.shields.io/badge/Contributors-5-orange)](https://www.example.com/contributors)
 
 安联医盟是一款基于FATE工业级联邦学习框架+ABY安全多方计算框架的医疗数据高效联邦学习系统，可以让医疗机构在保护数据安全和数据隐私的前提下进行数据协作。安联医盟项目在原FATE框架的基础上设计了
 *基于数据增强框架的数据预处理方案*和*基于客户端贡献度的参数聚合算法组件*
